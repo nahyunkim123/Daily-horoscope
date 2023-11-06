@@ -21,7 +21,6 @@
 ## 결과화면
 <img width="972" alt="결과" src="https://github.com/nahyunkim123/Daily-horoscope/assets/142788257/f3dd5d2b-4057-4fad-a53e-67e95d68a677">
 
-<img width="899" alt="결과2" src="https://github.com/nahyunkim123/Daily-horoscope/assets/142788257/d1ccfdc0-32e9-44d2-a789-89b91bb8a803">
 
   
 ## 상세 설명
