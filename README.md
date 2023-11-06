@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 개요
 
-## Getting Started
+## 목차
+- [메인화면](#메인화면)
+- [상세설명](#상세-설명)
+- [폴더구조](#폴더구조)
 
-First, run the development server:
+## 메인화면
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<div class="flex">
+  <div class="basis-[50%]">
+<img width="1180" alt="메인화면" src="https://github.com/nahyunkim123/Daily-horoscope/assets/142788257/4d01b8f9-e3f2-41fc-bc6a-e207d516755b">
+    <h4>PC 버전</h4>
+  </div>
+  <div class="basis-[50%]">
+     <img width="577" alt="모바일" src="https://github.com/nahyunkim123/Daily-horoscope/assets/142788257/4b24b50c-5b46-4824-8864-16a9022f9422">
+    <h4>모바일 버전</h4>
+  </div>
+</div>
+      
+## 결과화면
+<img width="972" alt="결과" src="https://github.com/nahyunkim123/Daily-horoscope/assets/142788257/f3dd5d2b-4057-4fad-a53e-67e95d68a677">
+
+<img width="899" alt="결과2" src="https://github.com/nahyunkim123/Daily-horoscope/assets/142788257/d1ccfdc0-32e9-44d2-a789-89b91bb8a803">
+
+  
+## 상세 설명
+API를 활용한 오늘의 운세 웹사이트입니다
+
+## 사용 기술
+- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- #### 배포
+- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+## 폴더구조
+```
+🗂️ daily-horoscope
+├─ 📦 app
+│  └─ 📜  page.tsx
+└   ─ 📜  layout.tsx
+│  └─ 🎨  globals.css
+│  └─   📦 api
+│       └─ 📜 route.ts
+├─ 📦 public
+│  └─ 📦 images
+│     └─ 🖼️ clover-leaf.png
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 배포 주소
+https://daily-horoscope-frmczmgvg-nahyunkim123.vercel.app/
