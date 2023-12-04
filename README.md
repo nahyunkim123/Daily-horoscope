@@ -52,4 +52,4 @@ API를 활용한 오늘의 운세 웹사이트입니다
 
 
 ## 배포 주소
-https://daily-horoscope-frmczmgvg-nahyunkim123.vercel.app/
+https://daily-horoscope-lemon.vercel.app/
